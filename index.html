@@ -1,10 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./css-styles/style.css" type="text/css">
     <meta charset="UTF-8">
+    <meta name="description" content="Assaf Kaner's portfolio">
+    <style>
+      @media (min-width: 600px) {
+  .container-1 {
+    display: flex;
+  }
+}
+    </style>
+    <meta name="author" content="Assaf Kaner">
     <title>Assaf's Portfolio</title>
 </head>
 <body>
-    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- navigation bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav><br/>
+    <!-- end navigation bar -->
+    <!-- welcome section -->
+    <section id="welcome-section" class="welcome-section">
+            <h1 id="main-header">Assaf Kaner</h1>
+            <p>Genius, Billionaire, Playboy, Philanthropist</p>                
+    </section>
+    <!-- end welcome section -->
+    <!-- projects section -->
+    <section id="projects">
+      <div class="container-1">
+          <div class="project-tile" id="tribute-page">
+            <a href="#" target="_blank">
+              <img id="img1" src="images/gopro1.jpg">
+              <p>Tribute Page</p>  
+            </a>
+            
+          </div>
+            
+          <div class="project-tile" >
+            <a href="https://github.com/KanerA/github-slideshow" target="_blank"> 
+              <img id="img2" src="https://images-na.ssl-images-amazon.com/images/I/41k-pj66QiL.jpg"> 
+              <p>Landing Page</p> 
+            </a>
+            
+          </div>
+          
+          <div class="project-tile" >
+            <a href="#" target="_blank"> 
+              <img id="img3"src="images/gopro3.jpg"> 
+              <p>Slideshow Project</p>
+            </a>
+            
+          </div>
+      </div >  
+        
+    </section>
+      <!-- end projects section -->
+      <!-- contact section -->
+    <section id="contact">
+        <h2 class="media-header">Contact me on social media:</h2>
+        <div  class="container-2">
+            <a id="profile-link" class="media-link" href="https://www.freecodecamp.org/assafk" target="_blank">FCC</a>
+
+            <a id="insta-link" class="media-link" href="https://www.instagram.com/assafkaner/" target="_blank">instagram</a>
+
+            <a id="github-link" class="media-link" href="https://github.com/KanerA" target="_blank">github</a>
+
+             <a id="fb-link" class="media-link" href="https://www.facebook.com/assaf.kaner/" target="_blank">facebook</a>
+        </div>   
+    </section>
 </body>
 </html>
